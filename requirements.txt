@@ -1,0 +1,31 @@
+# Smart AI DoorLock System - Requirements
+# Python 3.9+ recommended
+
+# Core web framework
+streamlit>=1.32.0
+
+# Computer Vision
+opencv-python-headless>=4.9.0.80
+Pillow>=10.2.0
+
+# YOLO Object Detection
+ultralytics>=8.1.0
+
+# Face Recognition (requires cmake + dlib build tools)
+face-recognition>=1.3.0
+dlib>=19.24.0
+
+# MediaPipe Facial Landmarks
+mediapipe>=0.10.9
+
+# RAG Engine
+sentence-transformers>=2.6.1
+faiss-cpu>=1.7.4
+
+# Data & Visualization
+pandas>=2.2.0
+numpy>=1.26.0
+plotly>=5.19.0
+
+# Utilities
+scipy>=1.12.0
